@@ -13,6 +13,10 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.2
+
+  # firebase
+  firebase_auth:
+
   date_picker_timeline:
 
 dev_dependencies:

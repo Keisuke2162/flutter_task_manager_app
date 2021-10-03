@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:task_manager_app/navigation.dart';
+import 'package:task_manager_app/view/login_screen.dart';
 import 'view/top_screen.dart';
 
 void main() {
@@ -16,7 +17,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Navigation(),
+      // home: Navigation(),
+      home: LoginScreen(),
     );
   }
 }
